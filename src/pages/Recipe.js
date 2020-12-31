@@ -32,7 +32,7 @@ export default class Recipe extends React.Component {
 
     navigator.share({
       title: `${recipe.name}`,
-      text: 'Delicious Recipe!',
+      text: 'Delicious Recipes!',
       url: document.location.href
     })
       .then(() => alert('Shared!'))
