@@ -3,6 +3,7 @@ import { Router, Route, Link } from "react-router-dom"
 import ReactGA from 'react-ga'
 import { createBrowserHistory } from 'history'
 
+import IfOffline from './components/IfOffline'
 import Home from './pages/Home'
 import Recipe from './pages/Recipe'
 import Timer from './pages/Timer'
@@ -28,7 +29,7 @@ export default class App extends React.Component {
       <Router history={ history }>
         <div>
           <header>
-            <Link to="/">Recetas</Link>
+            <Link to="/">Recetas <IfOffline>Offline</IfOffline> </Link>
           </header>
 
           <main>
