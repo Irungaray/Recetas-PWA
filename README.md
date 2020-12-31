@@ -1,10 +1,5 @@
 # Recetas
 
-<div style="text-align:center">
-![Captura de Recetas](.readme-static/captura.png)
-</div>
-
-
 PWA que utiliza la API de MealDB para mostrar recetas con sus instrucciones.
 
 Algunas de las features que tiene son:
@@ -27,3 +22,5 @@ Algunas de las features que tiene son:
 MIT
 
 *Proyecto del curso de PWA de Platzi*
+
+![Captura de Recetas](.readme-static/captura.png)
